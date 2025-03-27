@@ -2,7 +2,7 @@ import streamlit as st
 import numpy as np
 import pandas as pd
 
-df = pd.read_csv("C:/Users/Ayush Dubey/Desktop/app/honeycomb_data.csv")
+df = pd.read_csv("honeycomb_data.csv")
 
 def get_best_row(df, parameter, input_value, tolerance):
     if parameter == "e11":
